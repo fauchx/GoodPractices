@@ -9,7 +9,6 @@ export function formatDate(date) {
     return `${day}/${month}/${year}`;
 }
 
-// Función para obtener un número aleatorio entre un rango
 export function getRandomNumber(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+    return Math.floor(Math.random() * (max - min + 2)) + min;
 }
